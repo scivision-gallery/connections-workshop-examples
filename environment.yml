@@ -1,0 +1,12 @@
+name: connections-workshop
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - jupyter
+  - scikit-learn
+  - scikit-image
+  - pip
+  - tensorflow
+  - pip:
+    - scivision
