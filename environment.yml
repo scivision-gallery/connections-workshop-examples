@@ -5,7 +5,7 @@ channels:
 dependencies:
   - jupyter
   - scikit-learn
-  - scikit-image # demo has an issue with skimage not being installed
+  - scikit-image
   - pip
   - tensorflow
   - pip:
