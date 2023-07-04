@@ -3,10 +3,16 @@ channels:
   - conda-forge
   - anaconda
 dependencies:
+  - python=3.9
+  - aiohttp=3.8.3
+  - fsspec=2023.1.0
   - jupyter
-  - scikit-learn
-  - scikit-image
   - pip
-  - tensorflow
+  - scikit-learn=1.2.1
+  - scikit-image=0.19.3
+  - tensorflow=2.10.0
+  - tensorflow-cpu=2.10.0
   - pip:
-    - scivision
+    - intake==0.6.5
+    - intake-xarray==0.6.0
+    - git+https://github.com/alan-turing-institute/scivision@main#egg=scivision
